@@ -1,0 +1,494 @@
+@media screen and (max-width: 1680px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+	}
+	header .logo{
+		position: relative;
+		left: 0;
+	}
+	.header-menu{
+		width: calc(100% - 300px);
+	}
+}
+@media screen and (max-width: 1340px) {
+	.content, header, footer{
+		width: calc(100% - 40px);
+	}
+}
+@media screen and (max-width: 1270px) {
+	.mobile_invisible{
+		display: none;
+	}
+	.pricing_table{
+		width: 920px;
+		margin: 56px auto 0;
+	}
+	.desctop_invisible{
+		display: inline-block;
+	}
+	.payment_method .mobile_invisible{
+		display: inline-block;
+	}
+	.pricing_body li{
+		text-align: left;
+		padding-left: 24px;
+		padding-right: 24px;
+		font-size: 15px;
+		line-height: 21px;
+		color: #8189B6;
+		background: url('img/pricing-li-after.svg') bottom center no-repeat;
+	}
+	.pricing_body li img{
+		margin-right: 12px;
+	}
+}
+@media screen and (max-width: 1140px) {
+	.header-menu{
+		width: calc(100% - 170px);
+	}
+	.text_img_first{
+		flex-direction: column;
+	}
+	.text_img.text_img_first .text_side{
+		margin: 0 auto;
+	}
+	.button_a{
+		width: 100%;
+	}
+	.text_img_first .img_side{
+		width: 550px;
+		margin: 30px auto 0;
+	}
+	.animate_img .line{
+		width: 115px;
+		height: 156px;
+	}
+	.animate_img .point1{
+		top: 17px;
+	}
+	.animate_img .point2{
+		top: 140px;
+		left: 118px;
+	}
+	@keyframes circle1_dvizh{
+		from {width: 8px; height: 8px; opacity: 1; left: 0px; top: 17px;} to {width: 50px; height: 50px; top: -4px; left: -22px; opacity: 0;}
+	}
+	@keyframes circle2_dvizh{
+		from { width: 8px; height: 8px; opacity: 1; top: 140px; left: 118px;} to {width: 50px; height: 50px; top: 120px; left: 97px; opacity: 0;}
+	}
+	@keyframes dvizh_musora{
+		from {left: -6px; top: -4px; transform: rotate(0deg);} 33% {left: 60px; top: -4px;} 34% {top: -2px; left: 63px;} 35% {top: -1px; left: 69px;} 37% {top: 1px; left: 74px;} 40% {top: 3px; left: 78px;}43% {top: 5px; left: 83px;} 46% {top: 7px; left: 85px;} 50% {top: 9px; left: 88px;} 54% {top: 12px; left: 90px;} 57% {top: 16px; left: 92px;} 60% {top: 22px; left: 94px;} 62% {top: 28px; left: 96px;} 63% {left: 96px; top: 27px;} to {left: 96px; top: 170px; transform: rotate(1080deg);}
+	}
+	.animate_img .musor_vedro{
+		left: 93px;
+		top: 161px;
+	}
+	.advantages{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.adv_item{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.animate_img{
+		left: 390px;
+	}
+	.footer_right{
+		width: 400px;
+	}
+	.footer_center .footer_items a{
+		font-size: 15px;
+		line-height: 32px;
+	}
+	.footer_center .footer_items{
+		width: 220px;
+	}
+	.advantages{
+		align-items: flex-start;
+		padding-top: 40px;
+		box-sizing: border-box;
+	}
+}
+@media screen and (max-width: 980px) {
+	.pricing_tables{
+		overflow-x: scroll;
+		background: linear-gradient(270deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%);
+		background-size: 40px 100%;
+	}
+	.pricing_tables_container{
+		position: relative;
+	}
+	.pricing_tables_container:after{
+		width: 40px;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: linear-gradient(270deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%);
+		content: '';
+	}
+	.page_content h1, .pricing_content h1{
+		font-size: 40px;
+		line-height: 44px;
+	}
+}
+@media screen and (max-width: 960px) {
+	.mobile_menu_button, .mobile_menu_close{
+		display: block;
+	}
+	.header-menu{
+		display: none;
+	}
+	header .logo{
+		margin: 0 auto 50px;
+	}
+	.animate_img{
+		left: 329px;
+		top: 197px;
+	}
+	.text_img .img_side{
+		width: 50%
+	}
+	.text_img .text_side{
+		width: 50%;
+	}
+	.img_side .img_bg img, .img_side .img_stars img, .img_side .img_content img{
+		max-width: 100%;
+	}
+	footer{
+		padding-right: 0;
+	}
+	header{
+		position: relative;
+	}
+	.header_login_text{
+		position: absolute;
+		right: 0;
+		top: 151px;
+		height: auto;
+	}
+	.payment_content{
+		margin-top: 56px;
+	}
+	.popup_login{
+		top: 237px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.animate_img{
+		top: 166px;
+		left: 289px;
+	}
+	.text_img.text_img_first .img_side{
+		overflow: visible;
+	}
+	.payment_body{
+		flex-direction: column;
+		padding-bottom: 96px;
+	}
+	.payment_body .img_horisontal, .payment_side .desctop_invisible{
+		display: block;
+	}
+	.payment_body .img_vertical, .payment_body .img_horisontal.short{
+		display: none;
+	}
+	.payment_side{
+		width: 100%;
+		padding-left: 0;
+	}
+	.payment_head h2{
+		width: 100%;
+	}
+	.payment_side.right{
+		order: 1;
+	}
+	.payment_body>img{
+		order: 2;
+	}
+	.payment_side.left{
+		order: 3;
+	}
+	.payment_side.left h2{
+		font-size: 26px;
+		line-height: 36px;
+		margin-top: 40px;
+		margin-bottom: 96px;
+	}
+	.payment_side.left p{
+		margin-bottom: 0;
+	}
+	.payment_side.right p{
+		margin-bottom: 40px;
+	}
+	.payment_method .mobile_invisible{
+		display: none;
+	}
+	.payment_method{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media screen and (max-width: 840px) {
+	.animate_img {
+	    top: 136px;
+	    left: 260px;
+	}
+	.footer_right{
+		padding-left: 0;
+		width: 270px;
+		display: flex;
+		align-items: center;
+	}
+	.footer_right_text p{
+		width: 106px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.pricing_tabs{
+		width: 640px;
+	}
+	.pricing_tabs a{
+		width: 204px;
+		font-size: 15px;
+		line-height: 21px;
+	}
+}
+@media screen and (max-width: 770px) {
+	.animate_img{
+		top: 116px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.advantages{
+		height: auto;
+		flex-direction: column;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.advantages .adv_item{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.advantages .razdelit{
+		width: 100%;
+		height: 1px;
+		background: url('img/razdelit_mob.svg') left no-repeat;
+		background-size: 100%;
+	}
+	.text_img{
+		flex-direction: column;
+	}
+	.right_side{
+		padding-left: 0;
+	}
+	.text_img .img_side, .text_img .text_side{
+		width: 100%;
+	}
+	.text_img .img_side{
+		order: 1;
+		width: 400px;
+    	margin: 50px auto;
+	}
+	.text_img .img_side.planet_img_side{
+		margin: 50px 0;
+	}
+	.text_img .text_side{
+		order: 2;
+	}
+	.text_img.text_img_first .text_side{
+		order: 1;
+	}
+	.text_img.text_img_first .img_side{
+		order: 2;
+	}
+	.animate_img{
+		top: 167px;
+		left: 286px;
+	}
+	footer{
+		flex-direction: column;
+    	margin-top: 50px;
+	}
+	.footer_right, .footer_center .footer_items{
+		width: 280px;
+	}
+	.footer_right{
+		border-left: none;
+		border-top: 1px solid #F4F5F9;
+		padding-top: 30px;
+	}
+	.footer_center{
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+	.page_content{
+		margin-top: 22px;
+	}
+	.pricing_tabs{
+		width: 100%;
+	}
+	.pricing_tabs li{
+		width: calc(33% - 5px);
+	}
+	.pricing_tabs a{
+		width: 100%;
+	}
+	.page_content.payment_content{
+		margin-top: 56px;
+	}
+	.payment_message{
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 640px) {
+	.text_img.text_img_first .text_side{
+		width: 100%;
+	}
+	.text_side h1{
+		font-size: 36px;
+		line-height: 42px;
+	}
+	h2{
+		font-size: 34px;
+		line-height: 40px;
+	}
+	.payment_body .img_horisontal.short{
+		display: block;
+	}
+	.payment_body .img_horisontal.wide{
+		display: none;
+	}
+	.popup_login{
+		right: 0;
+		left: 0;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 530px) {
+	.text_img .img_side{
+		width: 300px;
+	}
+	.animate_img{
+		top: 74px;
+    	left: 193px;
+	}
+	.text_img.text_img_first .img_side{
+		width: 300px;
+	}
+	.spoiler{
+		flex-direction: column;
+	}
+	.spoiler_button{
+		margin: 0 auto 30px;
+	}
+}
+@media screen and (max-width: 490px) {
+	.page_content h1, .pricing_content h1{
+		font-size: 34px;
+		line-height: 40px;
+	}
+	.pricing_tabs a{
+		font-size: 13px;
+		line-height: 15px;
+		height: 100%;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.pricing_table{
+		width: 296px;
+		flex-direction: column;
+	}
+	.pricing_tables{
+		overflow-x: visible;
+	}
+	.pricing_col{
+		margin-bottom: 32px;
+	}
+	.pricing_tables_container:after{
+		background: none;
+	}
+}
+@media screen and (max-width: 430px) {
+	.planet_img_side .img_content{
+		width: 250px;
+	}
+	.planet_img_side .img_content img{
+		width: 200px;
+	}
+	.animate_img{
+		left: 128px;
+		top: 75px;
+	}
+	.mobile-menu-container li{
+		height: 80px;
+	}
+	.mobile-menu-container li a{
+		top: 8px;
+		font-size: 20px;
+	}
+	.order_block .pricing_gift{
+		width: 100%;
+	}
+	.header_login_text p, .header_login_text p a{
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.header_login_text p a{
+		margin-left: 12px;
+	}
+	.page_content{
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width: 382px) {
+	.advantages .adv_item{
+		width: calc(100% - 40px);
+	}
+	.payment_body{
+		padding: 15px;
+	}
+	.payment_method{
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+@media screen and (max-width: 360px) {
+	.planet_img_side .img_content{
+		width: 210px;
+	}
+	.animate_img{
+		left: 89px;
+	}
+	.text_img .img_side, .text_img.text_img_first .img_side{
+		width: 100%;
+	}
+	.footer_right, .footer_center .footer_items{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 330px) {
+	.header_login_text p a{
+		margin-left: 4px;
+	}
+}
+@media screen and (max-height: 639px) {
+	.popup_login input{
+		padding: 8px 16px;
+		margin-bottom: 10px;
+	}
+	.popup_login form button{
+		margin-top: 14px;
+	}
+	.popup_login p{
+		margin-bottom: 14px;
+	}
+	.popup_login form button{
+		padding: 8px;
+	}
+	.popup_login{
+		padding: 18px 38px;
+	}
+}
